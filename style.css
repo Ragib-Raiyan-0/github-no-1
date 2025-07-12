@@ -1,10 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 /*1st part*/
 .logo{
-    font-size: large;
+    font-size: 65px;
     color:#4b5eff;
     font-weight: bold;
 }
@@ -22,16 +23,18 @@ body {
     
     background-color: #3331c1;
     color: white;
-    padding: 10px 20px;
+    padding: 30px 60px;
     border-radius: 8px;
+    font-size: large;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
+    box-shadow: #333;
   }
 
     #but {
     font-size: larger;
-    background-color: #4b5eff;
+    background-color: #5669f6;
     color: white;
     padding: 10px 20px;
     border-radius: 6px;
@@ -41,7 +44,7 @@ body {
     }
     .live-btn{
      
-       background-color: #4b5eff;
+       background-color: #5f6ef5;
     color: white;
     padding: 10px 20px;
     border-radius: 6px;
@@ -78,8 +81,8 @@ body {
 }
 
 .choto-img {
-  width: 400px;
-  height: auto;
+  width: 450px;
+  height: 400px;
   border-radius: 50px;
   margin-left: 40px;
 }
@@ -106,35 +109,54 @@ body {
   transition: background-color 0.3s;
 }
 /*2nd part*/
-.stats {
-  background-color: #a0b7f7;
-  text-align: center;
-  padding: 40px 20px;
-  border-radius: 8px;
+.stats1{
+  margin-top: 10%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
 }
+.stats {
+  background-color: #b5c7f8;
+  text-align: center;
+  font-size: 45px;
+ 
+  width: 80vw;
+  
+  border-radius: 25px;
+
+}
+
 
 .stat-boxes {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 150px;
   margin-top: 20px;
-  
+  height: 300px;
 }
 
-.stat h2 {
-  color: #4b5eff;
-  font-size: 36px;
+.stat h1 {
+  color: #3845d4;
+  font-size: 100px;
+  height: 100px;
   
 }
 
 .stat p {
-  font-size: 14px;
+  font-size: 20px;
   color: #444;
 }
 /*3rd part*/
 .testimonials {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: large;
   text-align: center;
   padding: 40px 20px;
+}
+.testimonials h2{
+  font-size: 45px;
 }
 
 .testimonial-cards {
@@ -146,22 +168,49 @@ body {
 }
 
 .card {
-  background-color: #f0eacf;
+  
+  align-items: flex-start;
+  background-color: #bee2ed;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 18px;
   width: 250px;
+}
+.rev-info{
+  display: inline-flex;
+  align-items:flex-start;
+  gap: 15px;
+}
+.user_review{
+      display: inline-flex;
+      align-items: flex-start;
+      text-align: justify;
+      gap: 15px;
+      
+
 }
 /*4rth part*/
 .cta {
+ display: flex ;
+flex-direction: column;
+  justify-content: center;
+  align-items:center ;
   text-align: center;
-  padding: 40px 20px;
+  height: 40vw;
+  width: 80vw;
+  font-size: 30px;
+ background-color: #fcf7d2;
+ margin-left: 10%;
+ margin-bottom: 10%;
+  
 }
+.cta h1{font-size: 45px}
 .avatar{
     border-radius: 100%;
 }
 .cta-img {
-  max-width: 100%;
-  border-radius: 10px;
+  height: 20vw;
+  max-width: 300vw;
+  border-radius: 30px;
   margin-top: 20px;
 }
 /*5th part*/
@@ -186,7 +235,7 @@ body {
 }
 
 .contact-text h1 {
-  font-size: 36px;
+  font-size: 60px;
   color: #000;
 }
 
