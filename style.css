@@ -75,13 +75,16 @@ body {
 }
 
     .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
   background-image: url('media/c.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 80px 20px;
   color: white;
   text-align: center;
+  height: 90vh;
 }
 .focus-btn {
   background-color: #4b5eff;
