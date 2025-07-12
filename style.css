@@ -50,25 +50,35 @@ body {
     transition: background-color 0.3s;
     }
 
-    .hero-content{
-        color: black;
-       display: grid;
-       place-items: center;
+    .hero-content h1{
+       font-size: 50px; 
+       color: #000;
+      
+
     }
+
    .Webflow-section {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 40vh;
+  margin: 20px;
+  
+}
+.subsection{
+  width: 80vw;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 40px;
 }
 
 .Webflow-text {
-  flex: 1;
-  font-size: large;
+
+  font-size: 30px;
 }
 
 .choto-img {
-  width: 200px;
+  width: 400px;
   height: auto;
   border-radius: 50px;
   margin-left: 40px;
