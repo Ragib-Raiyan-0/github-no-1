@@ -1,0 +1,229 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*1st part*/
+.logo{
+    font-size: large;
+    color:#4b5eff;
+    font-weight: bold;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f0f0f0;
+}
+
+  .signup-btn {
+  
+    
+    
+    background-color: #3331c1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+    #but {
+    font-size: larger;
+    background-color: #4b5eff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    }
+    .live-btn{
+     
+       background-color: #4b5eff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    }
+
+    .hero-content{
+        color: black;
+       display: grid;
+       place-items: center;
+    }
+   .Webflow-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.Webflow-text {
+  flex: 1;
+  font-size: large;
+}
+
+.choto-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50px;
+  margin-left: 40px;
+}
+
+    .hero {
+  background-image: url('media/c.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
+.focus-btn {
+  background-color: #4b5eff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+/*2nd part*/
+.stats {
+  background-color: #a0b7f7;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+.stat-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  
+}
+
+.stat h2 {
+  color: #4b5eff;
+  font-size: 36px;
+  
+}
+
+.stat p {
+  font-size: 14px;
+  color: #444;
+}
+/*3rd part*/
+.testimonials {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f0eacf;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+}
+/*4rth part*/
+.cta {
+  text-align: center;
+  padding: 40px 20px;
+}
+.avatar{
+    border-radius: 100%;
+}
+.cta-img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+/*5th part*/
+.contact {
+  padding: 60px 20px;
+  background-color: #dde3fa;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-text h1 {
+  font-size: 36px;
+  color: #000;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.focus-btn {
+  background-color: #4b5eff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.focus-btn:hover {
+  background-color: #2d3ef8;
+}
+
+/*6th part footer */
+.footer {
+  background-color: #eef1ff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #4b5eff;
+  text-decoration: none;
+}
