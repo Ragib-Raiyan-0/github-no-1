@@ -95,7 +95,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
+  color: rgb(251, 251, 251);
   text-align: center;
   height: 90vh;
 }
